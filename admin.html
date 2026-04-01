@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin | JazzWaxAesthetics</title>
+
+<link rel="stylesheet" href="style.css">
+<script src="admin.js" defer></script>
+
+</head>
+
+<body>
+
+<!-- 🔥 LOGOUT BUTTON (TOP RIGHT) -->
+<div class="logout-top">
+    <button class="logout-btn" onclick="logout()">Logout</button>
+</div>
+
+<section class="admin-hero">
+
+<div class="admin-content">
+
+<h1 class="admin-title">Admin Dashboard</h1>
+<p class="admin-sub">Client Bookings Overview</p>
+
+<table class="admin-table">
+<thead>
+<tr>
+<th>Name</th>
+<th>Email</th>
+<th>Phone</th>
+<th>Date</th>
+<th>Services</th>
+<th>Total (Ksh)</th>
+<th>Status</th>
+<th>Actions</th>
+</tr>
+</thead>
+
+<tbody id="bookingTable"></tbody>
+
+</table>
+
+</div>
+
+</section>
+
+</body>
+</html>
